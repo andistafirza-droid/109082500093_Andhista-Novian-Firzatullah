@@ -138,14 +138,9 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan2_Modul2/Output-Unguided1-1.png)
+![Screenshot Output Unguided 1_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-3/output/Output-Unguided-1.png)
 
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan2_Modul2/Output-Unguided1-2.png)
-
-Program ini memakai dua *array* dua dimensi berukuran 3x3, yaitu `matA` dan `matB`, yang diisi lewat perulangan `for` bersarang. Untuk penjumlahan dan pengurangan, setiap elemen `matA[i][j]` dan `matB[i][j]` yang posisinya sama langsung dijumlahkan atau dikurangkan, lalu disimpan ke `hasilTambah` dan `hasilKurang`.
-
-Untuk perkalian matriks, caranya berbeda karena tidak bisa langsung dikalikan per elemen seperti penjumlahan. Dipakai tiga perulangan `for` bersarang: `i` untuk baris hasil, `j` untuk kolom hasil, dan `k` untuk mengalikan baris matriks A dengan kolom matriks B lalu dijumlahkan semuanya (`hasilKali[i][j] += matA[i][k] * matB[k][j]`). Sebelum dijumlahkan, `hasilKali[i][j]` diberi nilai awal 0 dulu supaya hasilnya tidak tercampur dengan nilai sampah. Setelah semua proses selesai, ketiga hasil matriks ditampilkan dengan perulangan `for` yang sama seperti saat input.
+Program menyimpan data maksimal 10 mahasiswa ke array dengan field nama, nim, uts, uas, tugas, dan nilai akhir. Nilai akhir dihitung fungsi hitungNilaiAkhir() dengan rumus 0.3uts + 0.4uas + 0.3*tugas.
 
 ### 2.ADT Pelajaran
 
@@ -211,16 +206,9 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan2_Modul2/Output-Unguided2-1.png)
+![Screenshot Output Unguided 2_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-3/output/Output-Unguided-2.png)
 
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan2_Modul2/Output-Unguided2-2.png)
-
-Program ini membuat dua fungsi untuk menukar nilai tiga variabel, satu memakai *pointer* dan satu lagi memakai *reference*, sesuai dengan materi *guided* sebelumnya. Pada fungsi `tukarPointer`, parameter yang dikirim berupa alamat variabel (`&a`, `&b`, `&c`), sehingga di dalam fungsi harus memakai tanda `*` untuk mengakses nilai yang ditunjuk oleh *pointer* tersebut.
-
-Sedangkan pada fungsi `tukarReferensi`, parameternya dideklarasikan dengan tanda `&` di depan nama variabel (`int &x, int &y, int &z`). Karena memakai *reference*, saat pemanggilan fungsi cukup menuliskan nama variabelnya saja (`tukarReferensi(a, b, c);`) tanpa perlu `&`, tapi efeknya sama dengan *pointer* yaitu bisa langsung mengubah nilai variabel aslinya.
-
-Proses penukaran pada kedua fungsi sama-sama memakai cara geser melingkar dengan bantuan variabel `temp`: nilai `x` disimpan dulu ke `temp`, lalu `x` diisi nilai `y`, `y` diisi nilai `z`, dan terakhir `z` diisi nilai `temp`. Jadi kalau awalnya a=1, b=2, c=3, maka setelah ditukar hasilnya menjadi a=2, b=3, c=1.
+Program mengimplementasikan ADT Pelajaran dengan file pelajaran.h, pelajaran.cpp, dan main.cpp. Fungsi create_pelajaran sebagai konstruktor, prosedur tampil_pelajaran untuk menampilkan data.
 
 ### 3.  Program Array 2D dan Pointer
 
@@ -301,19 +289,12 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan2_Modul2/Output-Unguided3-1.png)
+![Screenshot Output Unguided 3_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-3/output/Output-Unguided-3.png)
 
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan2_Modul2/Output-Unguided3-2.png)
-
-Program ini menyimpan data `arrA` sebagai *array* satu dimensi berisi 10 elemen, lalu menyediakan menu berbentuk `switch-case` yang terus muncul berulang memakai `do...while` sampai user memilih keluar (pilihan 5). Setiap pilihan menu akan memanggil fungsi atau prosedur yang berbeda.
-
-Untuk mencari nilai maksimum dan minimum, dibuat dua fungsi terpisah yaitu `cariMaksimum()` dan `cariMinimum()`. Keduanya menerima parameter berupa *array* dan jumlah elemennya, lalu nilai elemen pertama dianggap sebagai nilai maksimum/minimum sementara. Kemudian lewat perulangan `for`, setiap elemen dibandingkan satu per satu; kalau ditemukan elemen yang lebih besar (untuk maksimum) atau lebih kecil (untuk minimum) dari nilai sementara, nilai sementara itu diganti. Di akhir perulangan, nilai sementara itulah yang dikembalikan sebagai hasil akhir fungsi memakai `return`.
-
-Untuk menghitung rata-rata, dipakai prosedur `hitungRataRata()` yang tidak mengembalikan nilai (`void`) karena hasilnya langsung dicetak di dalam prosedur itu sendiri. Caranya, semua elemen *array* dijumlahkan dengan perulangan `for` ke variabel `total`, lalu `total` dibagi dengan jumlah elemen `n`. Pembagian dilakukan dengan mengubah `total` menjadi `float` terlebih dahulu (`(float) total / n`) supaya hasilnya tidak dibulatkan ke bawah seperti pada pembagian bilangan bulat.
+Program menggunakan 2 array 2D 3x3 dan 2 pointer integer. Prosedur tampil menampilkan isi array, tukarElemen menukar elemen pada posisi tertentu, dan tukarPointer menukar nilai yang ditunjuk 2 pointer.
 
 ## Kesimpulan
-Dari praktikum Modul 2 ini, saya belajar tentang *array*, *pointer*, fungsi, dan prosedur dalam bahasa C++. Pada soal pertama, saya memakai *array* dua dimensi dan perulangan `for` bersarang untuk operasi penjumlahan, pengurangan, dan perkalian matriks 3x3, di mana perkalian matriks ternyata membutuhkan perulangan tambahan dibanding penjumlahan dan pengurangan. Pada soal kedua, saya memahami perbedaan cara melewatkan parameter memakai *pointer* (dengan tanda `*` dan `&`) dan *reference* (dengan tanda `&` hanya di parameter formal) untuk mengubah nilai variabel yang ada di luar fungsi. Pada soal ketiga, saya belajar membuat program dengan menu `switch-case` yang memanggil fungsi `cariMinimum()`, `cariMaksimum()`, dan prosedur `hitungRataRata()` untuk mengolah data *array*. Dengan praktikum ini saya jadi lebih paham bagaimana memecah program menjadi fungsi-fungsi kecil membuat kode lebih rapi, terstruktur, dan mudah dipahami.
+Dari praktikum Modul 3 ini, dapat disimpulkan bahwa ADT merupakan konsep yang memisahkan spesifikasi tipe data dan implementasinya. Implementasi ADT di C++ dilakukan dengan memisahkan file .h (header), .cpp (realisasi), dan main.cpp (driver). Konsep ini membuat program lebih terstruktur dan mudah dikembangkan.
 
 ## Referensi
 [1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
