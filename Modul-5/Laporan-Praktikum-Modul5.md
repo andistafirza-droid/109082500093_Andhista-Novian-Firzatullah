@@ -522,7 +522,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-4/Screenshoot-Output/Output-one.png)
+![Screenshot Output Unguided 1_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-5/Hasil%20Output/Output-Modul5-1.png)
 
 Program ini diawali dengan membuat sebuah list kosong menggunakan prosedur `CreateList`, yang berfungsi untuk menginisialisasi pointer `First` agar tidak menunjuk ke node mana pun. Setelah itu, program mengalokasikan lima node dengan nilai secara berurutan, yaitu 2, 0, 8, 12, dan 9. Setiap node kemudian dimasukkan ke dalam list menggunakan prosedur `insertFirst`, yang menempatkan node baru di posisi paling awal dan menghubungkannya dengan node yang sebelumnya sudah ada. Oleh karena itu, setiap kali sebuah node baru ditambahkan, posisi node tersebut akan berada di depan node sebelumnya. Hal ini menyebabkan urutan elemen di dalam list menjadi terbalik dari urutan penyisipannya, sehingga nilai 9 yang dimasukkan terakhir menjadi elemen pertama, diikuti oleh 12, 8, 0, dan 2 sebagai elemen terakhir. Selanjutnya, fungsi `printInfo` digunakan untuk menampilkan seluruh isi list dengan menelusuri setiap node mulai dari `First` hingga mencapai `Nil`. Berdasarkan proses tersebut, program menghasilkan output `9 12 8 0 2`. Hasil ini menunjukkan bahwa prosedur `insertFirst` berhasil menyisipkan node di awal list dan menghubungkan setiap node melalui pointer `next`, sesuai dengan ilustrasi Singly Linked List pada soal.
 
@@ -658,7 +658,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-4/Screenshoot-Output/Output-two.png)
+![Screenshot Output Unguided 2_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-5/Hasil%20Output/Output-Modul5-2.png)
 
 Fungsi `findElm` digunakan untuk mencari elemen tertentu di dalam Singly Linked List dengan menelusuri setiap node mulai dari elemen pertama hingga mencapai `Nil`. Pada setiap node, program membandingkan nilai `info` dengan nilai yang ingin dicari. Jika nilai yang dicari sama dengan nilai `info` pada node tersebut, fungsi akan mengembalikan alamat node yang sesuai. Namun, jika nilai tersebut tidak ditemukan setelah seluruh node diperiksa, fungsi akan mengembalikan `Nil`. Dalam program ini, pencarian dilakukan terhadap nilai 8 pada list yang berisi elemen 9, 12, 8, 0, dan 2. Proses pencarian dimulai dari nilai 9, kemudian dilanjutkan ke 12, hingga akhirnya menemukan nilai 8 pada node ketiga. Setelah nilai tersebut ditemukan, program menampilkan pesan `8 ditemukan dalam list`. Dengan demikian, fungsi `findElm` berhasil melakukan pencarian elemen sesuai dengan hasil yang diharapkan.
 
@@ -813,7 +813,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-4/Screenshoot-Output/Output-two.png)
+![Screenshot Output Unguided 3_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-5/Hasil%20Output/Output-Modul5-3.png)
 
 Fungsi `sumInfo` digunakan untuk menghitung jumlah seluruh nilai yang tersimpan dalam node Singly Linked List. Proses perhitungan dimulai dengan menginisialisasi variabel `total` dengan nilai 0 dan menggunakan variabel bantu `P` untuk menunjuk ke node pertama melalui `First`. Selanjutnya, program menelusuri setiap node hingga mencapai `Nil`. Pada setiap node yang dikunjungi, nilai `info` akan ditambahkan ke variabel `total`, kemudian pointer `P` berpindah ke node berikutnya menggunakan `P = P->next`. Proses ini terus dilakukan sampai seluruh elemen dalam list selesai diperiksa. Dalam program ini, nilai yang terdapat pada list adalah 9, 12, 8, 0, dan 2. Setelah semua nilai dijumlahkan, diperoleh hasil 9 + 12 + 8 + 0 + 2 = 31. Hasil penjumlahan tersebut kemudian dikembalikan oleh fungsi `sumInfo` dan ditampilkan oleh program melalui pesan `Total info dari kelima elemen adalah 31`. Dengan demikian, fungsi `sumInfo` berhasil menghitung total nilai dari seluruh node yang terdapat dalam list sesuai dengan output yang diharapkan pada soal.
 
