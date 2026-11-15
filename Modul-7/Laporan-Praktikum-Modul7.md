@@ -304,7 +304,7 @@ int main()
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-6/Hasil-Output/Output-Unguided-1.png)
+![Screenshot Output Unguided 1_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-7/Hasil-Output/OutputUnguided1.png)
 
 Program ini membuat stack berisi bilangan bulat dengan array berkapasitas 20 elemen. Saat stack dibuat dengan createStack, nilai top diatur ke -1 yang berarti stack masih kosong. Setiap kali push dipanggil, top naik satu angka lalu angka baru disimpan di posisi itu. Sebaliknya, pop mengambil angka di posisi top lalu menurunkan top satu angka. Sebelum push dan pop dijalankan, program memeriksa dulu dengan isFull dan isEmpty, jadi tidak akan terjadi data melebihi kapasitas atau mengambil data dari stack yang kosong.
 
@@ -457,7 +457,7 @@ int main()
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-6/Hasil-Output/Output-Unguided-2.png)
+![Screenshot Output Unguided 2_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-7/Hasil-Output/OutputUnguided2.png)
 
 Program ini sama seperti program soal 1, tetapi ditambah prosedur pushAscending. Bedanya dengan push biasa, pushAscending tidak langsung menaruh angka di paling atas. Angka baru disisipkan di posisi yang tepat supaya isi stack selalu terurut naik dari dasar ke TOP, sehingga angka terbesar selalu berada di paling atas.
 
@@ -605,7 +605,7 @@ int main()
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-6/Hasil-Output/Output-Unguided-3.png)
+![Screenshot Output Unguided 3_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-7/Hasil-Output/OutputUnguided3.png)
 
 Program ini sama seperti program soal 1, tetapi ditambah prosedur getInputStream. Prosedur ini membuat stack bisa diisi langsung dari ketikan pengguna di keyboard, bukan dari angka yang sudah ditulis di dalam kode.
 
