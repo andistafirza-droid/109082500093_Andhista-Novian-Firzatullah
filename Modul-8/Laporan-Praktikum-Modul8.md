@@ -501,7 +501,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-7/Hasil-Output/OutputUnguided1.png)
+![Screenshot Output Unguided 1_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-8/Hasil%20Output/Output-Unguided-1.png)
 
 Program ini menunjukkan cara kerja struktur data Queue menggunakan prinsip FIFO. Setiap data yang masuk akan ditambahkan dari belakang (tail), sedangkan data yang keluar diambil dari depan (head).
 
@@ -617,7 +617,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-7/Hasil-Output/OutputUnguided2.png)
+![Screenshot Output Unguided 2_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-8/Hasil%20Output/Output-Unguided-2.png)
 
 Program ini menerapkan prinsip FIFO. Penambahan data dilakukan melalui tail, sedangkan penghapusan dilakukan melalui head. Berbeda dengan versi sebelumnya, penghapusan data tidak perlu menggeser seluruh isi antrian.
 
@@ -736,7 +736,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-7/Hasil-Output/OutputUnguided3.png)
+![Screenshot Output Unguided 3_1](https://github.com/andistafirza-droid/109082500093_Andhista-Novian-Firzatullah/blob/main/Modul-8/Hasil%20Output/Output-Unguided-3.png)
 
 Circular Queue merupakan pengembangan dari Queue biasa yang memungkinkan ruang kosong di awal array digunakan kembali. Dengan bantuan operasi modulo (%), posisi head dan tail dapat berputar dari indeks terakhir kembali ke indeks 0 tanpa perlu menggeser data.
 
