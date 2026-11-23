@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 8 - STACK</h1>
+# <h1 align="center">Laporan Praktikum Modul 8 - QUEUE</h1>
 <p align="center">Andhista Novian Firzatullah - 109082500092</p>
 
 ## Dasar Teori
